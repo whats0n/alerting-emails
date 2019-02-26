@@ -11,6 +11,14 @@
     body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
   </style>
   <![endif]-->
+  <style>
+    @media only screen and (max-width: 420px) {
+      table[class="v-table"] tr td,
+      table[class="v-table"] tr th {
+        font-size: 12px !important;
+      }
+    }
+  </style>
 </head>
 <body style="padding: 0; margin: 0; background: #f2f2f2; font-family: Arial, Helvetica, sans-serif !important; font-size: 16px; line-height: 1.3; word-break: break-word;">
   <table
@@ -98,6 +106,7 @@
                 </tr>
               </table>
               <table
+                class="v-table"
                 border="0"
                 cellspacing="0"
                 cellpadding="0"
@@ -107,20 +116,20 @@
                 <thead>
                   <tr>
                     <td style="padding: 10px; width: 50%; background: #eaeaea;">Name</td>
-                    <td style="padding: 10px; width: 20%; background: #eaeaea;">Qty</td>
-                    <td style="padding: 10px; width: 30%; background: #eaeaea;">Price</td>
+                    <td style="padding: 10px; width: 17%; background: #eaeaea;">Qty</td>
+                    <td style="padding: 10px; width: 33%; background: #eaeaea;">Price</td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td style="padding: 10px; border: 1px solid #dcdcdc; width: 50%;">iPhone 6 silver</td>
-                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 20%;">1</td>
-                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 30%;">$350.00</td>
+                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 17%;">1</td>
+                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 33%;">$350.00</td>
                   </tr>
                   <tr>
                     <td style="padding: 10px; border: 1px solid #dcdcdc; width: 50%;">Case leather silver</td>
-                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 20%;">1</td>
-                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 30%;">$60.00</td>
+                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 17%;">1</td>
+                    <td style="padding: 10px; border: 1px solid #dcdcdc; width: 33%;">$60.00</td>
                   </tr>
                 </tbody>
               </table>
@@ -140,6 +149,7 @@
                 </tr>
               </table>
               <table
+                class="v-table"
                 border="0"
                 cellspacing="0"
                 cellpadding="0"
